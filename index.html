@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Espaço Ebenezer — Espaço de eventos premium em São Paulo. Auditório com capacidade para 250 pessoas, painel LED 4K, sistema de som profissional e equipe dedicada.">
+  <title>Espaço Ebenezer | Espaço de Eventos Premium — São Paulo</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- ================================================
+     NAVEGAÇÃO
+     ================================================ -->
+  <nav>
+    <div class="nav-logo">
+      <img src="imagens/logo.png" alt="Espaço Ebenezer" class="nav-logo-img">
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre Nós</a></li>
+      <li><a href="#espacos">Espaços</a></li>
+      <li><a href="#infraestrutura">Infraestrutura</a></li>
+      <li><a href="#pacotes">Pacotes</a></li>
+      <li><a href="#equipe">Equipe</a></li>
+    </ul>
+
+    <button class="nav-cta" data-scroll="contato">Solicitar Proposta</button>
+
+    <!-- Hamburger Mobile -->
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Abrir menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Drawer Mobile -->
+  <div class="nav-mobile-drawer" id="nav-mobile-drawer">
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#espacos">Espaços</a>
+    <a href="#infraestrutura">Infraestrutura</a>
+    <a href="#pacotes">Pacotes</a>
+    <a href="#equipe">Equipe</a>
+    <a href="#contato" data-scroll="contato">Solicitar Proposta</a>
+  </div>
+
+
+  <!-- ================================================
+     HERO
+     ================================================ -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid"></div>
+    <div class="hero-accent"></div>
+    <div class="hero-content">
+      <div class="hero-badge">São Paulo &nbsp;·&nbsp; Espaço de Eventos Premium</div>
+      <h1 class="hero-title">Onde cada evento<br>se torna <em>história</em></h1>
+      <p class="hero-subtitle">Tecnologia de ponta, arquitetura sofisticada e uma equipe dedicada tudo em um único
+        espaço projetado para elevar o padrão da sua produção.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" data-scroll="contato">Agendar Visita</button>
+        <button class="btn-outline" data-scroll="espacos">Conhecer os Espaços</button>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">250<span>+</span></span>
+          <span class="stat-label">Capacidade</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Áreas exclusivas</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">4<span>K</span></span>
+          <span class="stat-label">Painel LED</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">360<span>°</span></span>
+          <span class="stat-label">Suporte técnico</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+     SOBRE NÓS
+     ================================================ -->
+  <section id="sobre" style="background: var(--offwhite); padding: 120px 5%; padding-top: -10px;">
+    <div class="conceito-inner">
+      <div>
+        <p class="conceito-label">Sobre Nós</p>
+        <h2 class="conceito-title">Um espaço feito para deixar <em style="font-style:italic;color:var(--gold)">sua
+            marca</em></h2>
+        <p class="conceito-text">Somos um espaço de eventos premium localizado em São Paulo, criado para acolher, apoiar
+          e transformar cada encontro em algo verdadeiramente memorável. Do planejamento à execução, tudo é pensado para
+          que você não precise se preocupar com nenhum detalhe.</p>
+        <p class="conceito-text">Nosso nome é inspirado na palavra hebraica <em>Ebenezer</em> "pedra de ajuda" e
+          reflete o nosso propósito: ser um ponto de apoio sólido para os momentos mais importantes da sua vida ou
+          negócio.</p>
+        <div class="conceito-quote">"Porque mais do que um espaço físico, somos um lugar preparado para ajudar você a
+          deixar sua marca."</div>
+      </div>
+      <div class="conceito-imgs">
+        <div class="conceito-img">
+          <img src="imagens/BBC7AF1E-2C5B-4EF9-9AA0-6E5F25E55A83_4_5005_c.jpeg"
+            alt="Auditório principal do Espaço Ebenezer">
+        </div>
+        <div class="conceito-img">
+          <img src="imagens/2D842856-21F0-46BD-95D9-49E3B469D574_4_5005_c.jpeg" alt="Foyer e área de networking">
+        </div>
+        <div class="conceito-img">
+          <img src="imagens/98AE8D51-946C-455D-99FB-E612CFC74FBF_4_5005_c.jpeg" alt="Recepção do espaço">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+     ESPAÇOS
+     ================================================ -->
+  <section id="espacos" class="espacos-section">
+    <div class="espacos-header">
+      <span class="section-label">Nossos Espaços</span>
+      <h2 class="section-title" style="color: var(--white);">Ambientes projetados para cada formato de evento</h2>
+      <p class="section-sub" style="color: rgba(255,255,255,0.5);">Flexibilidade e sofisticação em cada área do complexo
+      </p>
+    </div>
+
+    <div class="espacos-grid">
+
+      <!-- Auditório Principal -->
+      <div class="espaco-card">
+        <img src="imagens/BDA76A19-5AD4-40E6-B2FD-C2F443225EDD_4_5005_c.jpeg" alt="Auditório Principal">
+        <div class="espaco-info">
+          <span class="espaco-tag">Auditório Principal</span>
+          <div class="espaco-name">Sala de Eventos</div>
+          <span class="espaco-cap">Até 250 pessoas · Auditório ou Escolar</span>
+        </div>
+      </div>
+
+      <!-- Foyer -->
+      <div class="espaco-card">
+        <img src="imagens/23017E59-CA44-4F58-83E3-70FD722827D2_4_5005_c.jpeg" alt="Foyer e Networking">
+        <div class="espaco-info">
+          <span class="espaco-tag">Área Exclusiva</span>
+          <div class="espaco-name">Foyer &amp; Networking</div>
+          <span class="espaco-cap">Stands · Ativações · Patrocinadores</span>
+        </div>
+      </div>
+
+      <!-- Terraço -->
+      <div class="espaco-card">
+        <img src="imagens/F6F5BB95-CE5F-4810-B927-25C1D07A86E1_4_5005_c.jpeg" alt="Terraço Panorâmico">
+        <div class="espaco-info">
+          <span class="espaco-tag">Área Externa</span>
+          <div class="espaco-name">Terraço Panorâmico</div>
+          <span class="espaco-cap">Vista exclusiva da cidade · Open air</span>
+        </div>
+      </div>
+
+      <!-- Camarim -->
+      <div class="espaco-card small">
+        <img src="imagens/8D4D740D-EBF2-4359-8A51-14964F648083_4_5005_c.jpeg" alt="Camarim">
+        <div class="espaco-info">
+          <span class="espaco-tag">Privativo</span>
+          <div class="espaco-name">Camarim</div>
+          <span class="espaco-cap">Palestrantes &amp; Artistas</span>
+        </div>
+      </div>
+
+      <!-- Sala Multiuso -->
+      <div class="espaco-card small">
+        <img src="imagens/ED814C1D-DB11-49E6-B5FB-DB76E7FC4C83_4_5005_c.jpeg" alt="Sala Multiuso">
+        <div class="espaco-info">
+          <span class="espaco-tag">Multifuncional</span>
+          <div class="espaco-name">Sala Multiuso</div>
+          <span class="espaco-cap">Reuniões · Armazenamento · Base operacional</span>
+        </div>
+      </div>
+
+      <!-- Copa -->
+      <div class="espaco-card small">
+        <img src="imagens/FB6C6E5E-429F-4CE9-BF3B-63C0C4D7AA0A_4_5005_c.jpeg" alt="Copa Exclusiva">
+        <div class="espaco-info">
+          <span class="espaco-tag">Gastronomia</span>
+          <div class="espaco-name">Copa Exclusiva</div>
+          <span class="espaco-cap">Coffee break · Coquetéis · Catering</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ================================================
+     INFRAESTRUTURA
+     ================================================ -->
+  <section id="infraestrutura" style="padding: 100px 5%; background: var(--offwhite);">
+    <div style="max-width: 1400px; margin: 0 auto;">
+      <div class="section-header">
+        <span class="section-label">Infraestrutura</span>
+        <h2 class="section-title">Tecnologia profissional em cada detalhe</h2>
+        <p class="section-sub">Equipamentos de nível broadcast para garantir o sucesso técnico do seu evento</p>
+      </div>
+      <div class="infra-grid">
+
+        <div class="infra-card">
+          <div class="infra-icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <h3 class="infra-title">Painel LED 4K</h3>
+          <p class="infra-text">Alta resolução para apresentações, vídeos 4K, conteúdos dinâmicos e mensagens de
+            patrocinadores com máximo impacto visual.</p>
+        </div>
+
+        <div class="infra-card">
+          <div class="infra-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z" />
+              <path d="M19 10v2a7 7 0 0 1-14 0v-2M12 19v4M8 23h8" />
+            </svg>
+          </div>
+          <h3 class="infra-title">Sistema de Som Profissional</h3>
+          <p class="infra-text">Microfones sem fio, de lapela, caixas de alta potência e mesa de som para controle
+            completo de áudio.</p>
+        </div>
+
+        <div class="infra-card">
+          <div class="infra-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+            </svg>
+          </div>
+          <h3 class="infra-title">Sistema de Iluminação Cênica</h3>
+          <p class="infra-text">Iluminação ambiente e de palco com efeitos especiais e controle programável para criar a
+            atmosfera perfeita.</p>
+        </div>
+
+        <div class="infra-card">
+          <div class="infra-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M15 10l4.553-2.069A1 1 0 0 1 21 8.82v6.36a1 1 0 0 1-1.447.889L15 14M3 8a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8z" />
+            </svg>
+          </div>
+          <h3 class="infra-title">Captação &amp; Transmissão</h3>
+          <p class="infra-text">Câmeras PTZ e sistema completo de transmissão ao vivo com captação integral do seu
+            evento em alta qualidade.</p>
+        </div>
+
+        <div class="infra-card">
+          <div class="infra-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <h3 class="infra-title">Mobiliário Premium</h3>
+          <p class="infra-text">Mesas e cadeiras de qualidade profissional, dispostos conforme o formato escolhido
+            escolar (200p) ou auditório (250p).</p>
+        </div>
+
+        <div class="infra-card">
+          <div class="infra-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01" />
+            </svg>
+          </div>
+          <h3 class="infra-title">Ar Condicionado Central</h3>
+          <p class="infra-text">Climatização eficiente e silenciosa mantendo temperatura ideal em todo o ambiente
+            durante a duração completa do evento.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+     DIFERENCIAIS
+     ================================================ -->
+  <section class="dif-section">
+    <div style="max-width: 1400px; margin: 0 auto;">
+      <div class="section-header">
+        <span class="section-label">Por que Ebenezer</span>
+        <h2 class="section-title" style="color: var(--white);">Diferenciais que elevam seu evento</h2>
+      </div>
+      <div class="dif-grid">
+        <div class="dif-item">
+          <div class="dif-num">01</div>
+          <span class="dif-label">Flexibilidade</span>
+          <p class="dif-text">Múltiplos formatos de disposição adaptados ao seu evento e público.</p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-num">02</div>
+          <span class="dif-label">Tecnologia</span>
+          <p class="dif-text">Equipamentos profissionais de última geração, do som à captação em 4K.</p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-num">03</div>
+          <span class="dif-label">Conforto</span>
+          <p class="dif-text">Ambiente climatizado, mobiliário premium e espaços exclusivos de apoio.</p>
+        </div>
+        <div class="dif-item">
+          <div class="dif-num">04</div>
+          <span class="dif-label">Profissionalismo</span>
+          <p class="dif-text">Equipe dedicada do coordenador ao técnico, presente em cada detalhe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+     EQUIPE
+     ================================================ -->
+  <section id="equipe" style="padding: 100px 5%; background: var(--white);">
+    <div style="max-width: 1400px; margin: 0 auto;">
+      <div class="section-header">
+        <span class="section-label">Nossa Equipe</span>
+        <h2 class="section-title">Profissionais dedicados ao seu sucesso</h2>
+        <p class="section-sub">Cada membro da equipe é treinado para transformar sua visão em realidade</p>
+      </div>
+      <div class="equipe-grid">
+
+        <div class="eq-card">
+          <div class="eq-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+          </div>
+          <h3 class="eq-title">Coordenador</h3>
+          <p class="eq-text">Um coordenador dedicado que é a ponte entre você e o espaço em cada detalhe do seu evento.
+          </p>
+        </div>
+
+        <div class="eq-card">
+          <div class="eq-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <h3 class="eq-title">Staff Operacional</h3>
+          <p class="eq-text">Equipe à disposição para apoio no andamento, direcionamento e demais necessidades
+            operacionais.</p>
+        </div>
+
+        <div class="eq-card">
+          <div class="eq-icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="3" width="20" height="14" rx="2" />
+              <path d="M8 21h8M12 17v4" />
+            </svg>
+          </div>
+          <h3 class="eq-title">Equipe Técnica</h3>
+          <p class="eq-text">Três especialistas dedicados: operação do painel LED, áudio e iluminação — garantindo
+            qualidade técnica impecável.</p>
+        </div>
+
+        <div class="eq-card">
+          <div class="eq-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3 class="eq-title">Cuidados &amp; Bem-Estar</h3>
+          <p class="eq-text">Dois auxiliares focados na organização e limpeza do espaço durante todo o evento, mantendo
+            o ambiente impecável.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+     GALERIA
+     ================================================ -->
+  <div class="gallery">
+    <div class="gallery-header">
+      <span class="section-label">Galeria</span>
+      <h2 class="section-title">Conheça cada detalhe</h2>
+    </div>
+    <div class="gallery-track">
+      <img src="imagens/BBC7AF1E-2C5B-4EF9-9AA0-6E5F25E55A83_4_5005_c.jpeg" alt="Auditório">
+      <img src="imagens/2EFC7C94-F563-458A-828A-C13E60FAF57D_4_5005_c.jpeg" alt="Palco">
+      <img src="imagens/3A8D510A-B0CD-4214-9E5E-31382F13C315_4_5005_c.jpeg" alt="Foyer">
+      <img src="imagens/AEB20C9A-E1E5-4E97-A68F-5E2A832383F5_4_5005_c.jpeg" alt="Iluminação">
+      <img src="imagens/BB487DA6-CA43-4144-A8B7-9BBA2CD4B059_4_5005_c.jpeg" alt="Evento">
+      <img src="imagens/D0D65DEB-0BF3-461F-A3C4-2C19716CC587_4_5005_c.jpeg" alt="Detalhe interno">
+      <img src="imagens/DA8A7290-DEEE-4261-BC17-956DBBB50D2F_4_5005_c.jpeg" alt="Terraço">
+      <img src="imagens/DD7E7B41-83D8-4A85-A8CE-38FED418986B_4_5005_c.jpeg" alt="Área de apoio">
+      <img src="imagens/EF4F8220-CBA2-46DF-9054-29FED38A1C06_4_5005_c.jpeg" alt="Coffebreak">
+      <img src="imagens/F64B5B05-6ACA-41C9-84AE-58202CB2C926_4_5005_c.jpeg" alt="Detalhes do espaço">
+    </div>
+  </div>
+
+
+
+  <!-- ================================================
+     PACOTES
+     ================================================ -->
+
+  <section id="pacotes" class="pacotes-section">
+    <div style="max-width: 1400px; margin: 0 auto; padding: 0 5%;">
+      <div class="section-header">
+        <span class="section-label">Nossos Pacotes</span>
+        <h2 class="section-title">Escolha o pacote ideal para o seu evento</h2>
+        <p class="section-sub">Do Bronze ao Ouro. Cada detalhe pensado para o seu momento</p>
+      </div>
+
+      <div class="pacotes-grid">
+
+        <!-- ── BRONZE — Padrão ─────────────────────── -->
+        <div class="pacote-card">
+          <div class="pacote-header">
+            <span class="pacote-tier bronze">Padrão</span>
+            <h3 class="pacote-nome">Pacote Bronze</h3>
+            <p class="pacote-desc">Ideal para eventos corporativos e reuniões profissionais</p>
+          </div>
+          <ul class="pacote-itens">
+            <li>Uso do auditório</li>
+            <li>Foyer amplo</li>
+            <li>Som profissional básico</li>
+            <li>Iluminação simples</li>
+            <li>Painel de LED</li>
+            <li>Telas de retorno (1 unidade)</li>
+            <li>Equipe técnica reduzida</li>
+            <li>1 sala de apoio</li>
+          </ul>
+          <button class="pacote-cta" data-scroll="contato">Solicitar Orçamento</button>
+        </div>
+
+        <!-- ── OURO — Completo / Centro ───────────── -->
+        <div class="pacote-card pacote-destaque">
+          <div class="pacote-popular-badge">Mais Popular!</div>
+          <div class="pacote-header">
+            <span class="pacote-tier ouro">Completo</span>
+            <h3 class="pacote-nome">Pacote Ouro</h3>
+            <p class="pacote-desc">A experiência completa para eventos de alto padrão</p>
+          </div>
+          <ul class="pacote-itens">
+            <li>Tudo do Pacote Prata</li>
+            <li>Varanda 500m²</li>
+            <li>Iluminação cênica completa</li>
+            <li>Painel de LED completo</li>
+            <li>Captação completa</li>
+            <li>Transmissão ao vivo</li>
+            <li>Produção executiva completa</li>
+            <li>Equipe técnica completa</li>
+            <li>Staffs completos</li>
+            <li>Microfones mesa a mesa</li>
+            <li>Salas de apoio</li>
+            <li>Camarim privativo</li>
+            <li>Copa exclusiva</li>
+            <li>Podcast + Estúdio</li>
+          </ul>
+          <button class="pacote-cta pacote-cta-gold" data-scroll="contato">Solicitar Orçamento</button>
+        </div>
+
+        <!-- ── PRATA — Médio ──────────────────────── -->
+        <div class="pacote-card">
+          <div class="pacote-header">
+            <span class="pacote-tier prata">Médio</span>
+            <h3 class="pacote-nome">Pacote Prata</h3>
+            <p class="pacote-desc">Para eventos que exigem mais estrutura e impacto</p>
+          </div>
+          <ul class="pacote-itens">
+            <li>Tudo do Pacote Bronze</li>
+            <li>Som profissional completo</li>
+            <li>Iluminação profissional</li>
+            <li>Painel de LED parcial</li>
+            <li>Telas de retorno</li>
+            <li>Captação de evento</li>
+            <li>Produção executiva parcial</li>
+            <li>Equipe técnica essencial</li>
+            <li>Staffs básicos</li>
+            <li>Salas de apoio</li>
+            <li>Camarim privativo</li>
+          </ul>
+          <button class="pacote-cta" data-scroll="contato">Solicitar Orçamento</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+     CTA / CONTATO
+     ================================================ -->
+  <section id="contato" class="cta-bg">
+    <div class="cta-deco"></div>
+    <div class="cta-deco2"></div>
+    <div class="cta-content">
+      <span class="cta-label">Reserve seu evento</span>
+      <h2 class="cta-title">Pronto para construir<br>sua <em>história</em> aqui?</h2>
+      <p class="cta-sub">Fale com nossa equipe e receba uma proposta personalizada para o seu evento. Disponibilidade
+        limitada.</p>
+      <!-- FORMULÁRIO DE ORÇAMENTO -->
+      <form class="orcamento-form" id="orcamento-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-nome">Nome completo</label>
+            <input type="text" id="f-nome" name="nome" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="f-email">E-mail</label>
+            <input type="email" id="f-email" name="email" placeholder="seu@email.com" required>
+          </div>
+        </div>
+        <!-- SELEÇÃO DE PACOTE — Radio Cards -->
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label class="form-label-standalone">Pacote de interesse</label>
+          <input type="hidden" id="f-pacote" name="pacote">
+          <div class="pacote-radio-grid">
+            <button type="button" class="pacote-radio-card" data-value="Pacote Bronze (Padrão)">
+              <span class="prc-tier">Padrão</span>
+              <span class="prc-nome">Bronze</span>
+            </button>
+            <button type="button" class="pacote-radio-card prc-destaque" data-value="Pacote Ouro (Completo)">
+              <span class="prc-tier">Completo</span>
+              <span class="prc-nome">Ouro</span>
+            </button>
+            <button type="button" class="pacote-radio-card" data-value="Pacote Prata (Médio)">
+              <span class="prc-tier">Médio</span>
+              <span class="prc-nome">Prata</span>
+            </button>
+            <button type="button" class="pacote-radio-card prc-nao-sei"
+              data-value="Ainda não sei / Quero uma indicação">
+              <span class="prc-tier">?</span>
+              <span class="prc-nome">Ainda não sei</span>
+            </button>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="f-formato">Formato de sala</label>
+            <select id="f-formato" name="formato" required>
+              <option value="" disabled selected>Selecione o formato</option>
+              <option value="Auditório (até 250 pessoas)">Auditório</option>
+              <option value="Escolar (até 206 pessoas)">Escolar</option>
+              <option value="Terraço Panorâmico">Mesclado</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="f-pessoas">Quantidade de pessoas</label>
+            <input type="number" id="f-pessoas" name="pessoas" placeholder="Ex: 150" min="1" max="300" required>
+          </div>
+        </div>
+        <button type="submit" class="btn-primary form-submit">Enviar Solicitação via WhatsApp</button>
+      </form>
+
+      <div class="cta-contact">
+        <div class="contact-item">
+          <span class="contact-item-label" href="https://wa.me/5541999781013">WhatsApp</span>
+          <span class="contact-item-value" href="https://wa.me/5541999781013">(41) 999781-0130</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-item-label">E-mail</span>
+          <span class="contact-item-value">eventos@espaco.com</span>
+        </div>
+        <div class="contact-item">
+          <span class="contact-item-label">Localização</span>
+          <span class="contact-item-value">Barueri — São Paulo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================
+     FOOTER
+     ================================================ -->
+  <footer>
+    <div class="footer-logo">
+      <img src="imagens/logo.svg" alt="Espaço Ebenezer" class="footer-logo-img">
+      <span class="footer-text">© 2025 Espaço Ebenezer. Todos os direitos reservados.</span>
+    </div>
+    <div class="footer-links">
+      <a href="#">Política de Privacidade</a>
+      <a href="#">Termos de Uso</a>
+      <a href="https://www.instagram.com/espacoebz/">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>`
+
+</html>
